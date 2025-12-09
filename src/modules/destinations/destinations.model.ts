@@ -6,6 +6,7 @@ import { Prisma } from '@prisma/client';
  * Follows Single Responsibility Principle
  */
 
+// Find all destinations
 export const findAll = async (options: {
     where?: Prisma.DestinationWhereInput;
     orderBy?: Prisma.DestinationOrderByWithRelationInput;
